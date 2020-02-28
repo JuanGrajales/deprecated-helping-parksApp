@@ -20,41 +20,43 @@ class homePage extends Component {
 
 
         return (
-            <Carousel showArrows={true} interval={3000} transitionTime={500} autoPlay={true}> 
+            <Carousel showArrows={true} interval={3000} transitionTime={500} autoPlay={false}> 
 
                 <div>  
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg"/>
-                    <p className="legend">pa</p>
+                    <img style={{height: "510px"}}  alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg"/>
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <p style={{width: "50px"}} className="legend legend2">pa</p><br/>
+                    </div>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C79850F-1DD8-B71B-0BC4A88BA85DE6B0.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C79850F-1DD8-B71B-0BC4A88BA85DE6B0.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7A4FC2-1DD8-B71B-0B13118C99270C08.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7A4FC2-1DD8-B71B-0B13118C99270C08.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt=""  src="https://www.nps.gov/common/uploads/structured_data/3C80E3F4-1DD8-B71B-0BFF4F2280EF1B52.jpg"/>
+                    <img style={{height: "510px"}} alt=""  src="https://www.nps.gov/common/uploads/structured_data/3C80E3F4-1DD8-B71B-0BFF4F2280EF1B52.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7FEF84-1DD8-B71B-0B26F3C536955733.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7FEF84-1DD8-B71B-0B26F3C536955733.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B227E-1DD8-B71B-0BEECDD24771C381.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B227E-1DD8-B71B-0BEECDD24771C381.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7EC929-1DD8-B71B-0B6F8851F7D62846.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7EC929-1DD8-B71B-0B6F8851F7D62846.jpg"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C83C9C7-1DD8-B71B-0B9B669ED961F97E.jpg"/>
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C83C9C7-1DD8-B71B-0B9B669ED961F97E.jpg"/>
                     <p className="legend">Legend 1</p></div>
                 <div>
-                    <img alt="" src="https://www.nps.gov/common/uploads/structured_data/3C854681-1DD8-B71B-0BA4F6D9379336DF.jpg"/>               
+                    <img style={{height: "510px"}} alt="" src="https://www.nps.gov/common/uploads/structured_data/3C854681-1DD8-B71B-0BA4F6D9379336DF.jpg"/>               
                 </div>
                 {/* {newDiv} */}
                 {/* <div>

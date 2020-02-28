@@ -65,3 +65,7 @@
   background-color: #ddd;
   color: rgb(172, 168, 168);
 }  
+
+.legend2 {
+  margin-left: 0px !important;
+}
