@@ -23,7 +23,7 @@ class homePage extends Component {
             <Carousel showArrows={true} interval={3000} transitionTime={500} autoPlay={false}> 
 
                 <div>  
-                    <img style={{height: "510px"}}  alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg"/>
+                    <img style={{height: "520px"}}  alt="" src="https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg"/>
                     <div style={{display: "flex", justifyContent: "center"}}>
                         <p style={{width: "50px"}} className="legend legend2">pa</p><br/>
                     </div>
