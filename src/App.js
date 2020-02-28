@@ -39,9 +39,9 @@ class App extends Component {
   makeCarousel = (parks) => {
     let pics = ''
     parks.map(eachPark => {
-      pics += `<div><img src="${eachPark.images[0].url}${parks.name}"/><p className="legend">${eachPark.name}</p></div>`
+       return pics += `<div><img src="${eachPark.images[0].url}${parks.name}"/><p className="legend">${eachPark.name}</p></div>`
     })
-    console.log(pics, typeof pics)
+    // console.log(pics, typeof pics)
     this.setState({pics: String(pics)})
   }
 
